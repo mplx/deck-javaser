@@ -14,7 +14,7 @@ separate deck built on this one.
 
 Out of scope: writing streams (rarely needed, and a correct writer has to
 reproduce Java's handle and block rules exactly), protocol version 1
-externalizable data (the JDK™ has written version 2 by default since 1.2 and
+externalizable data (the JDK has written version 2 by default since 1.2 and
 version 1 data cannot be skipped without the class), and anything that
 would run code.
 

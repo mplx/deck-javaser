@@ -48,17 +48,17 @@ tools/check-docs.sh                  # docs against the code
 tools/pack.sh dist                   # build the release archive
 ```
 
-The test streams are written by the JDK™: `testdata/gen/Fixtures.java`
+The test streams are written by the JDK: `testdata/gen/Fixtures.java`
 writes them, `testdata/gen/embed.j` embeds them in
 `src/topics/fixtures/streams_test.j`.
 
 ## Trademarks
 
-Java™, JDK™ and OpenJDK™ are trademarks of Oracle Corporation and/or its
-affiliates. Other product and company names may be trademarks of their
-respective owners. They are used only to identify the products this deck works
-with. This deck is an independent project, not affiliated with, sponsored or
-endorsed by Oracle.
+Java™ is a trademark of Oracle and/or its affiliates; OpenJDK™ is a trademark
+of Oracle America, Inc. Other product and company names may be trademarks of
+their respective owners. They are used only to identify the products this deck
+works with. This deck is an independent project, not affiliated with,
+sponsored or endorsed by Oracle.
 
 ## Licence
 

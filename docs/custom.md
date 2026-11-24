@@ -6,7 +6,7 @@
 Many classes do not leave their state to the default field mechanism. A
 `Serializable` class with a `writeObject` method writes its fields and then
 anything else it likes; an `Externalizable` class writes everything itself in
-`writeExternal`, with no fields at all. The JDK™'s own collections do this:
+`writeExternal`, with no fields at all. The JDK's own collections do this:
 `ArrayList` writes its size and then each element.
 
 The stream keeps what was written in order: runs of primitive writes
