@@ -1,0 +1,24 @@
+[package]
+name = "@mplx/javaser"
+version = "0.1.0"
+description = "Decode Java Object Serialization streams (.ser files, ObjectOutputStream output) into a navigable object graph, without running any Java code"
+license = "LGPL-3.0-only"
+authors = ["mplx <mplx@jennifer-lang.dev>"]
+capabilities = []
+keywords = [
+    "java",
+    "serialization",
+    "objectoutputstream",
+    "ser",
+    "deserialization",
+    "forensics",
+    "file-format",
+]
+
+[package.urls]
+deck = "https://raw.githubusercontent.com/mplx/deck-javaser/main/deck.toml"
+homepage = "https://github.com/mplx/deck-javaser"
+manual = "https://mplx.github.io/deck-javaser/"
+
+[engines]
+jennifer = ">=0.28.0"
